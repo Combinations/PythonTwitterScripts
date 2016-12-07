@@ -1,7 +1,7 @@
 import twitter
 import json
 # Simple script that uses twitters API to find the intersection between the most popular trends in the US and the world. 
-CONSUMER_KEY = "r"
+CONSUMER_KEY = ""
 CONSUMER_SECRET = ""
 OAUTH_TOKEN = ""
 OAUTH_TOKEN_SECRET = ""
