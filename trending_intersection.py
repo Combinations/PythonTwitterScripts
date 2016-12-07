@@ -1,10 +1,10 @@
 import twitter
 import json
 # Simple script that uses twitters API to find the intersection between the most popular trends in the US and the world. 
-CONSUMER_KEY = "g1bRM1DVylg5XTa01CPgMVuyr"
-CONSUMER_SECRET = "8sYqjVCBsXDRgxKBIlUyF6ZTUUkXuZU5s0D1Lod1d8ZUQzh4Ji"
-OAUTH_TOKEN = "801509424472866816-HWwd0Fas1wzPwrSg8AfOZdiIn4A6tJE"
-OAUTH_TOKEN_SECRET = "3kt0xZf3BhpfwfC7l65N4PPSSHhi8wwaShCHricn0KF2b"
+CONSUMER_KEY = "r"
+CONSUMER_SECRET = ""
+OAUTH_TOKEN = ""
+OAUTH_TOKEN_SECRET = ""
 auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
  CONSUMER_KEY, CONSUMER_SECRET)
 # The Yahoo! Where On Earth ID for the entire world is 1.
